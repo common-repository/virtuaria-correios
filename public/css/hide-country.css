@@ -1,0 +1,5 @@
+p#calc_shipping_state_field,
+#calc_shipping_city_field,
+#calc_shipping_country_field {
+    display: none !important;
+}

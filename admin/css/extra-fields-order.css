@@ -1,0 +1,26 @@
+#order_data .order_data_column ._billing_persontype_field {
+    width: 100%;
+}
+#order_data .order_data_column ._billing_gender_field,
+#order_data .order_data_column ._billing_number_field,
+#order_data .order_data_column ._billing_ie_field,
+#order_data .order_data_column ._shipping_number_field,
+#order_data .order_data_column ._billing_rg_field {
+    clear: none;
+    margin-left: 13px;
+}
+.customer-info {
+    padding-top: 30px;
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1200px) {
+    #order_data .order_data_column ._billing_gender_field,
+    #order_data .order_data_column ._billing_number_field,
+    #order_data .order_data_column ._billing_ie_field,
+    #order_data .order_data_column ._shipping_number_field,
+    #order_data .order_data_column ._billing_rg_field {
+        clear: none;
+        margin-left: 11px;
+    }
+}
